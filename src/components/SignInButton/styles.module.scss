@@ -1,0 +1,23 @@
+.signIn {
+  height: 3rem;
+  border-radius: 3rem;
+  background-color: var(--gray-800);
+  color: var(--white);
+  padding: 0 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border: none;
+  gap: 1rem;
+  font-size: 1rem;
+  transition: 100ms linear;
+  
+  &:hover {
+    filter: brightness(0.8);
+  }
+
+  > svg {
+    height: 20px;
+    width: 20px;
+  }
+}
